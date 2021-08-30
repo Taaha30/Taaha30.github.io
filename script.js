@@ -23,19 +23,19 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/magnemite/scene.gltf',
-        scale: '0.0000005 0.0000005 0.0000005',
+        scale: '0.0005 0.0005 0.0005',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
     },
     {
         url: './assets/articuno/scene.gltf',
-        scale: '0.000002 0.00000002 0.00000002',
+        scale: '0.0002 0.002 0.002',
         rotation: '0 180 0',
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
         url: './assets/dragonite/scene.gltf',
-        scale: '0.0000002 0.0000002 0.0000002',
+        scale: '0.0002 0.0002 0.0002',
         rotation: '0 180 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
     },

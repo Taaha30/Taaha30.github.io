@@ -10,6 +10,30 @@
     left: 0;
     right: 0;
 }
+.new-centered {
+    height: 80%;
+    justify-content: center;
+    position: fixed;
+    bottom: 20%;
+    top: 5%;
+    right:30%;
+    left:15%;
+    display: block;
+    flex-direction: row;
+    width: 70%;
+    margin: 10px auto;
+    
+    /* background-color:red; */
+    border:5px solid;
+}
+
+.box{
+    width: 80%;
+    justify-content: center;
+    
+    
+
+}
 
 button {
     display: flex;

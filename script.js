@@ -1,7 +1,7 @@
 
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '﹖';
+    button.innerText = 'nxt';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -34,7 +34,7 @@ var models = [
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
-        url: './assets/dragonite/scene.gltf',
+        url: './assets/groom.jpeg',
         scale: '0.008 0.008 0.0008',
         rotation: '0 360 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
@@ -68,7 +68,7 @@ function renderPlaces(places) {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
 
-        let model = document.createElement('a-entity');
+        let model = document.createElement('a-image');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
         setModel(models[modelIndex], model);
